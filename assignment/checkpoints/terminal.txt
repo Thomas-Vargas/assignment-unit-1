@@ -29,4 +29,4 @@ to see the status of each file, whether they have been changed or already added 
 Adds all altered files in the directory to the staging area. 
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
-git push
+git push origin main (I figured the 'origin main' was reduntant in this scenario)

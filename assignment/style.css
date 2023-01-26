@@ -5,11 +5,12 @@ body {
 }
 
 /* Make the header and footer a different color from the background */
-
+header { 
+    background-color: rgb(75, 154, 75);
+}
 /* Align the h1 containing your name in the center of the header*/
 
 h1 {
-    background-color: rgb(75, 154, 75);
     font-size: 50px;
     text-align: center;
     color: beige;
@@ -40,8 +41,8 @@ p {
 }
 
 /* Change the font-family of your list */
-
-li {
+/* I assumed by 'list' you meant <li> items not <ul>, whoops! */
+ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     list-style-type: none;
